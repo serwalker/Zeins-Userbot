@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/4fb89144a65cfa20db406.jpg">
+  <img src="https://telegra.ph/file/0828f5b91c5cc19e8d70b.jpg">
 </p>
 
 👩‍💻 Senja-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
