@@ -76,7 +76,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/79b8b4625658113453805.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/0828f5b91c5cc19e8d70b.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -154,7 +154,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "AyiinXd/resources/IMG_20220515_032221_154.jpg")
+            await bot.send_file(bf, "AyiinXd/resources/20220613_050648.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -198,7 +198,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "AyiinXd/resources/IMG_20220515_032221_154.jpg")
+        await bot.send_file(bf, "AyiinXd/resources/20220613_050648.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
