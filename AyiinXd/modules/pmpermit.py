@@ -120,7 +120,7 @@ async def auto_accept(event):
 
         # Use user custom unapproved message
         get_message = gvarstatus("unapproved_msg")
-        UNAPPROVED_MSG = get_message if get_message is not None else DEF_UNAPPROVED_MSG
+        UNAPPROVED_MSG = get_message if get_message is not None else DEF_UNAPPROVED_MSG.format(sender.first_name)
         chat = await event.get_chat()
         if isinstance(chat, User):
             if is_approved(event.chat_id) or chat.bot:
