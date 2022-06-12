@@ -48,7 +48,7 @@ async def permitpm(event):
 
         # Use user custom unapproved message
         getmsg = gvarstatus("unapproved_msg")
-        UNAPPROVED_MSG = getmsg if getmsg is not None else DEF_UNAPPROVED_MSG.format(sender.first_name)
+        UNAPPROVED_MSG = getmsg if getmsg is not None else DEF_UNAPPROVED_MSG.format(self_user.first_name, self_user.id)
         # This part basically is a sanity check
         # If the message that sent before is Unapproved Message
         # then stop sending it again to prevent FloodHit
@@ -120,7 +120,7 @@ async def auto_accept(event):
 
         # Use user custom unapproved message
         get_message = gvarstatus("unapproved_msg")
-        UNAPPROVED_MSG = get_message if get_message is not None else DEF_UNAPPROVED_MSG.format(sender.first_name)
+        UNAPPROVED_MSG = get_message if get_message is not None else DEF_UNAPPROVED_MSG.format(self_user.first_name, self_user.id)
         chat = await event.get_chat()
         if isinstance(chat, User):
             if is_approved(event.chat_id) or chat.bot:
@@ -215,7 +215,7 @@ async def approvepm(apprvpm):
 
     # Get user custom msg
     getmsg = gvarstatus("unapproved_msg")
-    UNAPPROVED_MSG = getmsg if getmsg is not None else DEF_UNAPPROVED_MSG
+    UNAPPROVED_MSG = getmsg if getmsg is not None else DEF_UNAPPROVED_MSG.format(self_user.first_name, self_user.id)
     async for message in apprvpm.client.iter_messages(
         apprvpm.chat_id, from_user="me", search=UNAPPROVED_MSG
     ):
