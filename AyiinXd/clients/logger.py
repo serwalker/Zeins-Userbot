@@ -17,7 +17,7 @@ from AyiinXd import AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYII
 from AyiinXd.ayiin import checking
 
 MSG_ON = """
-❏  ᴀʏɪɪɴ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
+❏  sᴇɴᴊᴀ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
 ╭╼┅━━━━━╍━━━━━┅╾
 ├▹ ᴜsᴇʀʙᴏᴛ ᴠᴇʀsɪᴏɴ - {}
 ├▹ @{}
