@@ -1,4 +1,4 @@
- <h1 align="center">✨ 𝘼𝙮𝙞𝙞𝙣 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">✨ 𝙎𝙚𝙣𝙟𝙖 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
 
 <a href="https://github.com/AyiinXd/Ayiin-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/940f21be8d8863b6c70ae.jpg">
+  <img src="https://telegra.ph/file/4fb89144a65cfa20db406.jpg">
 </p>
 
 👩‍💻 Ayiin-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
@@ -56,13 +56,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ### Tutorial Deploy di VPS
 
--  `git clone https://github.com/AyiinXd/Ayiin-Userbot`
--  `cd Ayiin-Userbot`
+-  `git clone https://github.com/inisenja/Senja-Userbot`
+-  `cd Senja-Userbot`
 -  `pip3 install -r requirements.txt`
 -  `mv sample_config.env config.env`
 -  edit config.env Anda dan isi VARS menggunakan `nano config.env` `CTRL + S ` untuk menyimpan VARS Anda, gunakan `CTRL + X` untuk keluar dan kembali ke direktori Ayiin-Userbot
--  Buka SCRREN di VPS Anda `screen -S Ayiin-Userbot`
--  Kemudian gunakan perintah ini untuk menyebarkan Ayiin-Userbot `python3 -m AyiinXd`
+-  Buka SCRREN di VPS Anda `screen -S Senja-Userbot`
+-  Kemudian gunakan perintah ini untuk menyebarkan Ayiin-Userbot `bash start`
 
 </details>
 
@@ -70,7 +70,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/AyiinXd/DeployAyiin"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/inisenja/Senja-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
