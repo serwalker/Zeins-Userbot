@@ -48,7 +48,7 @@ async def permitpm(event):
 
         # Use user custom unapproved message
         getmsg = gvarstatus("unapproved_msg")
-        UNAPPROVED_MSG = getmsg if getmsg is not None else DEF_UNAPPROVED_MSG
+        UNAPPROVED_MSG = getmsg if getmsg is not None else DEF_UNAPPROVED_MSG.format(sender.first_name)
         # This part basically is a sanity check
         # If the message that sent before is Unapproved Message
         # then stop sending it again to prevent FloodHit
