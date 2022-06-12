@@ -605,7 +605,7 @@ pdf_3: "**ERROR: @office2pdf_bot tidak merespon, coba lagi nanti**"
 pdf_4: "**Mohon Reply ke teks apa pun**"
 
 # pmpermit tools
-prmt_1: "╔═════════════════════╗\n│ ㅤ 🍫sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ʟᴇʀ🍫ㅤ  ㅤ   \n╚═════════════════════╝\n㋭ ɢᴀᴋ ᴜsᴀʜ sᴘᴀᴍ ʏᴀ ʙᴀʙɪ\n㋭ ɢᴜᴀ ʙᴀɴ ʏᴀ ʟᴜ ᴀᴊɢ ᴋᴀʟᴏ sᴘᴀᴍ\n㋭ ᴛᴜɴɢɢᴜɪɴ ᴀᴇ sᴀᴍᴘᴇ ᴅɪ ᴛᴇʀɪᴍᴀ sᴀᴍᴀ sɪ ᴋᴏɴᴛᴏʟ ɪɴɪ {}\n╔═════════════════════╗\n│ㅤㅤ🍫 ᴘᴇsᴀɴ ᴏᴛᴏᴍᴀᴛɪs 🍫ㅤㅤ      \n│ㅤㅤ🍫 sᴇɴᴊᴀ - ᴜsᴇʀʙᴏᴛ 🍫ㅤㅤ   \n╚═════════════════════╝\n"
+prmt_1: "╔═════════════════════╗\n│ ㅤ 🍫sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ʟᴇʀ🍫ㅤ  ㅤ   \n╚═════════════════════╝\n㋭ ɢᴀᴋ ᴜsᴀʜ sᴘᴀᴍ ʏᴀ ʙᴀʙɪ\n㋭ ɢᴜᴀ ʙᴀɴ ʏᴀ ʟᴜ ᴀᴊɢ ᴋᴀʟᴏ sᴘᴀᴍ\n㋭ ᴛᴜɴɢɢᴜɪɴ ᴀᴇ sᴀᴍᴘᴇ ᴅɪ ᴛᴇʀɪᴍᴀ sᴀᴍᴀ sɪ ᴋᴏɴᴛᴏʟ ɪɴɪ [{}](tg://user?id={})\n╔═════════════════════╗\n│ㅤㅤ🍫 ᴘᴇsᴀɴ ᴏᴛᴏᴍᴀᴛɪs 🍫ㅤㅤ      \n│ㅤㅤ🍫 sᴇɴᴊᴀ - ᴜsᴇʀʙᴏᴛ 🍫ㅤㅤ   \n╚═════════════════════╝\n"
 prmt_2: "**Maaf Anda Diblokir karna melakukan spam ke tuan saya**"
 prmt_3: "**Terjadi Error Saat Menghitung Pesan pribadi, Mohon Restart Bot!**"
 prmt_4: "Gagal menghitung PM yang diterima"
