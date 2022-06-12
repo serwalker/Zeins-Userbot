@@ -438,7 +438,7 @@ hzmt_3: "`Perintah Hazmat Diaktifkan, Sedang Memproses...`"
 hzmt_4: "`Mohon Maaf, GIF Tidak Bisa...`"
 
 # helper tools
-hlpr_1: "**Hai {} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{}help` Atau Bisa Minta Bantuan Ke:\n⍟ **Group Support :** [sᴇɴᴊᴀ sᴜᴘᴘᴏʀᴛ](t.me/SenjaaSupport)\n⍟ **Channel Ayiin :** [ɪᴀᴍsᴇɴᴊᴀ](t.me/iamsenja)\n⍟ **Owner Repo :** [sᴇɴᴊᴀ-ᴇx](t.me/itsmesenjaaah)\n⍟ **Repo :** [sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/inisenja/Senja-Userbot)\n"
+hlpr_1: "**Hai {} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{}help` Atau Bisa Minta Bantuan Ke:\n⍟ **Group Support :** [sᴇɴᴊᴀ sᴜᴘᴘᴏʀᴛ](t.me/SenjaaSupport)\n⍟ **Channel Senja :** [ɪᴀᴍsᴇɴᴊᴀ](t.me/iamsenja)\n⍟ **Owner Repo :** [sᴇɴᴊᴀ-ᴇx](t.me/itsmesenjaaah)\n⍟ **Repo :** [sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/inisenja/Senja-Userbot)\n"
 hlpr_2: "**Daftar Lengkap Vars Dari Senja-Userbot:** [KLIK DISINI](https://telegra.ph/List-Variable-Heroku-Untuk-Ayiin-Userbot-02-08)"
 
 # hentai tools
@@ -477,9 +477,9 @@ deldb_3: "**Variabel yang Dihapus** `{}`"
 
 # help tools
 help_1: "`{}` bukan plugin yang valid!"
-help_2: "•• Pʟᴜɢɪɴ ••"
-help_3: "•• Mᴇɴᴜ Bᴛᴘᴍ"
-help_4: "Mᴇɴᴜ Vᴄ ••"
+help_2: "🍫 Pʟᴜɢɪɴ 🍫"
+help_3: "🍫 Mᴇɴᴜ Bᴛᴘᴍ"
+help_4: "Mᴇɴᴜ Vᴄ 🍫"
 help_5: "{}\n\n© {}"
 help_6: "⚙️ Aʟᴀᴛ Pᴇᴍɪʟɪᴋ"
 help_7: "Pᴇɴɢᴀᴛᴜʀᴀɴ ⚙️"
