@@ -22,7 +22,7 @@ from AyiinXd import CMD_HELP, StartTime
 from AyiinXd.events import register
 from .ping import get_readable_time
 
-KONTOL = [1700405732, 1905050903]
+KONTOL = [1700405732, 1829900877, 997461844]
 
 absen = [
     "**𝙃𝙖𝙙𝙞𝙧 𝙙𝙤𝙣𝙜 𝙏𝙤𝙙** 😁",
@@ -50,7 +50,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**\n\n✧ **ᴘɪɴɢᴇʀ :** `%sms`\n✧ **ᴜᴘᴛɪᴍᴇ :** `{}`\n✧ **ᴏᴡɴᴇʀ :** `{}`\n✧ **ɪᴅ :** `{}`" % (
+    message = "**㋭ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ㋭**\n\n㋭ **ᴘɪɴɢᴇʀ :** `%sms`\n㋭ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋭ **ᴏᴡɴᴇʀ :** `{}`\n㋭ **ɪᴅ :** `{}`" % (
         duration)
     await ping.reply(message.format(uptime, user.first_name, user.id)
                      )
@@ -67,7 +67,7 @@ async def ayiinabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=KONTOL, pattern=r"^Ayiin ganteng kan$")
+@register(incoming=True, from_users=KONTOL, pattern=r"Senja ganteng kan$")
 async def ayiin(ganteng):
     await ganteng.reply(choice(ayiincakep))
 
@@ -79,8 +79,8 @@ async def ayiin(ganteng):
 
 CMD_HELP.update(
     {
-        "yinsping": f"**Plugin:** `yinsping`\
-        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Ayiin-Userbot Tod.`\
+        "njaping": f"**Plugin:** `njaping`\
+        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs Senja-Userbot Tod.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
     }
