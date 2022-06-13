@@ -1,16 +1,15 @@
 # senja-userbot special
 # jangan hapus credit memek!
 
-import random
 
-from AyiinXd import CMD_HANDLER as ayiin_cmd
+from secrets import choice
+
+from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterPhotos
+
+from AyiinXd import BLACKLIST_CHAT
+from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
-from AyiinXd.utils import ayiin_cmd
-
-from AyiinXd import owner
-from telethon.tl.types import InputMessagesFilterVideo
-from telethon.tl.types import InputMessagesFilterPhotos
-
+from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 @ayiin_cmd(pattern="vl$")
 async def _(event):
