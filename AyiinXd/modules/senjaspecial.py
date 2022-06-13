@@ -86,7 +86,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "njaspecial": f"**Plugin : **`njaspecial`\
+        "senjaspecial": f"**Plugin : **`senjaspecial`\
         \n\n  »  **Perintah :** `{cmd}asupan`\
         \n  »  **Kegunaan : **Untuk Mengirim video asupan secara random.\
         \n\n  »  **Perintah :** `{cmd}ayang`\
