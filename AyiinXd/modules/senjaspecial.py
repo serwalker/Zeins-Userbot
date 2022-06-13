@@ -92,7 +92,9 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}ayang`\
         \n  »  **Kegunaan : **Untuk Mengirim foto ayang halu mu haha.\
         \n\n  »  **Perintah :** `{cmd}nc`\
-        \n  »  **Kegunaan : **Untuk Mengirim video bokep biar lu coli.\
+        \n  »  **Kegunaan : **Coba Sendiri Ya Tod.\
+        \n\n  »  **Perintah :** `{cmd}ncp`\
+        \n  »  **Kegunaan : **Coba Sendiri Ya Tod.\
     "
     }
 )
