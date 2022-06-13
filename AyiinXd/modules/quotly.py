@@ -78,11 +78,10 @@ async def quotly(event):
         file = await create_quotly(reply_, bg=match, reply=replied_to, sender=user)
     except Exception as er:
         return await msg.edit(get_string("error_1").format(er))
-    message = await reply.reply=file)
+    message = await reply.reply("Quotly by Senja-Userbot", file=file)
     remove(file)
     await msg.delete()
     return message
-
 
 CMD_HELP.update(
     {
