@@ -1,89 +1,55 @@
-# 🍀 © @tofik_dn
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
-# t.me/SharingUserbot & t.me/Lunatic0de
-# ⚠️ Do not remove credits
+# 🥂 © @inisenja
 
-from secrets import choice
+# ⚠️ Don't Remove Credits
 
-from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice,InputMessagesFilterPhotos 
+import os
 
-from AyiinXd import BLACKLIST_CHAT
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
+import random
 
+from telethon.tl.types import InputMessagesFilterPhotos
 
+from telethon.tl.types import InputMessagesFilterVideo
 
-@ayiin_cmd(pattern="asupan$")
+from AyiinXd.events import register
+
+from AyiinXd import telethn as tbot, ubot2                 
+
+@ayiin_cmd(pattern="asupan ?(.*)")
+
 async def _(event):
+
+    memeks = await event.reply("**Mencari Video Asupan...🔍**") 
+
     try:
+
         asupannya = [
+
             asupan
-            async for asupan in event.client.iter_messages(
-                "@Database_TonicUbot", filter=InputMessagesFilterVideo
+
+            async for asupan in ubot2.iter_messages(
+
+            "@Database_TonicUbot", filter=InputMessagesFilterVideo
+
             )
+
         ]
-        aing = await event.client.get_me()
-        await event.client.send_file(
-            event.chat_id,
-            file=random.choice(asupannya),
-            caption=f"Nih kak asupannya [{owner}](tg://user?id={aing.id})",
-        )
-        await event.delete()
-    except Exception:
-        await event.edit("Tidak bisa menemukan video asupan.")
 
+        kontols = random.choice(asupannya)
 
+        pantek = await ubot2.download_media(kontols)
 
-@ayiin_cmd(pattern="desah$")
-async def _(event):
-    try:
-        desahnya = [
-            desah
-            async for desah in event.client.iter_messages(
-                "@Desahan_Enak", filter=InputMessagesFilterVoice
+        await tbot.send_file(
+
+            event.chat.id, 
+
+            caption="Nih Asupan nya Kak 🥵", 
+
+            file=pantek
+
             )
-        ]
-        aing = await event.client.get_me()
-        await event.client.send_file(
-            event.chat_id,
-            file=random.choice(desahnya),
-            caption=f"Nih kak desahannya [{owner}](tg://user?id={aing.id})",
-        )
-        await event.delete()
+
+        await memeks.delete()
+
     except Exception:
-        await event.edit("Tidak bisa menemukan desahan.")
 
-
-        
-@ayiin_cmd(pattern="ayang$")
-async def _(event):
-    try:
-        ayangnya = [
-            ayang
-            async for ayang in event.client.iter_messages(
-                "@papcecanindo", filter=InputMessagesFilterPhotos
-            )
-        ]
-        aing = await event.client.get_me()
-        await event.client.send_file(
-            event.chat_id,
-            file=random.choice(ayangnya),
-            caption=f"Nih Ayang Aku 😘 [{owner}](tg://user?id={aing.id})",
-        )
-        await event.delete()
-    except Exception:
-        await event.edit("Gada Yang Mau Sama Kamu Karena Kamu ga Gud Luking🤪.")
-
-CMD_HELP.update(
-    {
-        "asupan": f"**➢ Plugin : **asupan\
-        \n\n ┌✪ **Syntax :** {cmd}asupan\
-        \n └✪ **Function : **Untuk Mengirim video asupan secara random.\
-        \n\n ┌✪ **Syntax :** {cmd}ayang\
-        \n └✪ **Function : **Untuk Mencari Ayang.\
-        \n\n ┌✪ **Syntax :** {cmd}desah\
-        \n └✪ **Function : **Untuk Mengirim voice desah secara random.\
-    "
-    }
-)
+        await memeks.edit("Asupannya gaada komsol")
