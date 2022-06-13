@@ -42,7 +42,7 @@ async def _(event):
         ayang = [
             ayang
             async for ayang in event.client.iter_messages(
-                "@papcecanindo", filter=InputMessagesFilterPhotos
+                "https://t.me/CeweLogoPack", filter=InputMessagesFilterPhotos
             )
         ]
         await event.client.send_file(
@@ -64,7 +64,7 @@ async def _(event):
         nc = [
             nc
             async for desah in event.client.iter_messages(
-                "@databasesenja", filter=InputMessagesFilterVideo
+                "@https://t.me/fakyudurov", filter=InputMessagesFilterVideo
             )
         ]
         await event.client.send_file(
