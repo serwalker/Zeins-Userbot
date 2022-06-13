@@ -67,9 +67,26 @@ async def _(event):
         await xx.edit("**Gak ada video nya tahan dulu sange lu bentar.**")
 
 
+@ayiin_cmd(pattern="ncp$")
+async def _(event):
+    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
+    try:
+        ncpnya = [
+            ncp
+            async for ncp in event.client.iter_messages(
+                "@durovbgst", filter=InputMessagesFilterPhotos
+            )
+        ]
+        await event.client.send_file(
+            event.chat_id, file=choice(ncpnya), reply_to=event.reply_to_msg_id
+        )
+        await xx.delete()
+    except Exception:
+        await xx.edit("**Gak ada foto nya tahan dulu sange lu bentar.**")
+
 CMD_HELP.update(
     {
-        "asupan": f"**Plugin : **`asupan`\
+        "njaspecial": f"**Plugin : **`njaspecial`\
         \n\n  »  **Perintah :** `{cmd}asupan`\
         \n  »  **Kegunaan : **Untuk Mengirim video asupan secara random.\
         \n\n  »  **Perintah :** `{cmd}ayang`\
