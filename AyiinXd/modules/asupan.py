@@ -5,7 +5,7 @@
 
 from secrets import choice
 
-from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice
+from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterPhotos
 
 from AyiinXd import BLACKLIST_CHAT
 from AyiinXd import CMD_HANDLER as cmd
@@ -33,46 +33,38 @@ async def _(event):
 
 @ayiin_cmd(pattern="ayang$")
 async def _(event):
-    if event.chat_id in BLACKLIST_CHAT:
-        return await edit_or_reply(
-            event, "**Gunakan perintah ini di depan temanmu yang jomblo**"
-        )
     xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
     try:
-        ayang = [
+        ayangnya = [
             ayang
             async for ayang in event.client.iter_messages(
-                "https://t.me/CeweLogoPack", filter=InputMessagesFilterPhotos
+                "@papcecanindo", filter=InputMessagesFilterPhotos
             )
         ]
         await event.client.send_file(
-            event.chat_id, file=choice(ayang), reply_to=event.reply_to_msg_id
+            event.chat_id, file=choice(ayangnya), reply_to=event.reply_to_msg_id
         )
         await xx.delete()
     except Exception:
-        await xx.edit("**Gak ada ayang,positif aja mungkin kau jelek haha.**")
+        await xx.edit("**Gak ada ayang?Positif aja mungkin kau jelek haha.**")
 
 
 @ayiin_cmd(pattern="nc$")
 async def _(event):
-    if event.chat_id in BLACKLIST_CHAT:
-        return await edit_or_reply(
-            event, "**Perintah ini Dilarang digunakan di Group ini**"
-        )
     xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
     try:
-        nc = [
+        ncnya = [
             nc
-            async for desah in event.client.iter_messages(
-                "@https://t.me/fakyudurov", filter=InputMessagesFilterVideo
+            async for nc in event.client.iter_messages(
+                "@databasesenja", filter=InputMessagesFilterVideo
             )
         ]
         await event.client.send_file(
-            event.chat_id, file=choice(nc), reply_to=event.reply_to_msg_id
+            event.chat_id, file=choice(ncnya), reply_to=event.reply_to_msg_id
         )
         await xx.delete()
     except Exception:
-        await xx.edit("**Gak ada video nya tahan sange lu bentar.**")
+        await xx.edit("**Gak ada video nya tahan dulu sange lu bentar.**")
 
 
 CMD_HELP.update(
