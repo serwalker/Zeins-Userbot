@@ -10,9 +10,9 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 from telethon.tl.types import InputMessagesFilterVideo
 
-from AyiinXd.events import register
+from userbot.events import register
 
-from AyiinXd import telethn as tbot, ubot2                 
+from userbot import telethn as tbot, ubot2                 
 
 @ayiin_cmd(pattern="asupan ?(.*)")
 
