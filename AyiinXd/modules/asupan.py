@@ -5,7 +5,7 @@
 
 from secrets import choice
 
-from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice
+from telethon.tl.types import InputMessagesFilterVideo, InputMessagesFilterVoice,InputMessagesFilterPhotos 
 
 from AyiinXd import BLACKLIST_CHAT
 from AyiinXd import CMD_HANDLER as cmd
