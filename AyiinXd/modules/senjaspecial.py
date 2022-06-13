@@ -3,11 +3,11 @@
 
 import random
 
-from userbot import CMD_HANDLER as cmd
-from userbot import CMD_HELP
-from userbot.utils import ayiin_cmd
+from AyiinXd import CMD_HANDLER as ayiin_cmd
+from AyiinXd import CMD_HELP
+from AyiinXd.utils import ayiin_cmd
 
-from userbot import owner
+from AyiinXd import owner
 from telethon.tl.types import InputMessagesFilterVideo
 from telethon.tl.types import InputMessagesFilterPhotos
 
