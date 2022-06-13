@@ -31,7 +31,29 @@ async def _(event):
         await xx.edit("**Tidak bisa menemukan video asupan.**")
 
 
-@ayiin_cmd(pattern="desahcewe$")
+@ayiin_cmd(pattern="ayang$")
+async def _(event):
+    if event.chat_id in BLACKLIST_CHAT:
+        return await edit_or_reply(
+            event, "**Gunakan perintah ini di depan temanmu yang jomblo**"
+        )
+    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
+    try:
+        ayang = [
+            ayang
+            async for ayang in event.client.iter_messages(
+                "@papcecanindo", filter=InputMessagesFilterPhotos
+            )
+        ]
+        await event.client.send_file(
+            event.chat_id, file=choice(ayang), reply_to=event.reply_to_msg_id
+        )
+        await xx.delete()
+    except Exception:
+        await xx.edit("**Gak ada ayang,positif aja mungkin kau jelek haha.**")
+
+
+@ayiin_cmd(pattern="nc$")
 async def _(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await edit_or_reply(
@@ -39,40 +61,18 @@ async def _(event):
         )
     xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
     try:
-        desahcewe = [
-            desah
+        nc = [
+            nc
             async for desah in event.client.iter_messages(
-                "@desahancewesangesange", filter=InputMessagesFilterVoice
+                "@databasesenja", filter=InputMessagesFilterVideo
             )
         ]
         await event.client.send_file(
-            event.chat_id, file=choice(desahcewe), reply_to=event.reply_to_msg_id
+            event.chat_id, file=choice(nc), reply_to=event.reply_to_msg_id
         )
         await xx.delete()
     except Exception:
-        await xx.edit("**Tidak bisa menemukan desahan cewe.**")
-
-
-@ayiin_cmd(pattern="desahcowo$")
-async def _(event):
-    if event.chat_id in BLACKLIST_CHAT:
-        return await edit_or_reply(
-            event, "**Perintah ini Dilarang digunakan di Group ini**"
-        )
-    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
-    try:
-        desahcowo = [
-            desah
-            async for desah in event.client.iter_messages(
-                "@desahancowokkkk", filter=InputMessagesFilterVoice
-            )
-        ]
-        await event.client.send_file(
-            event.chat_id, file=choice(desahcowo), reply_to=event.reply_to_msg_id
-        )
-        await xx.delete()
-    except Exception:
-        await xx.edit("**Tidak bisa menemukan desahan cowo.**")
+        await xx.edit("**Gak ada video nya tahan sange lu bentar.**")
 
 
 CMD_HELP.update(
@@ -80,10 +80,10 @@ CMD_HELP.update(
         "asupan": f"**Plugin : **`asupan`\
         \n\n  »  **Perintah :** `{cmd}asupan`\
         \n  »  **Kegunaan : **Untuk Mengirim video asupan secara random.\
-        \n\n  »  **Perintah :** `{cmd}desahcowo`\
-        \n  »  **Kegunaan : **Untuk Mengirim voice desah cowo secara random.\
-        \n\n  »  **Perintah :** `{cmd}desahcewe`\
-        \n  »  **Kegunaan : **Untuk Mengirim voice desah cewe secara random.\
+        \n\n  »  **Perintah :** `{cmd}ayang`\
+        \n  »  **Kegunaan : **Untuk Mengirim foto ayang halu mu haha.\
+        \n\n  »  **Perintah :** `{cmd}nc`\
+        \n  »  **Kegunaan : **Untuk Mengirim video bokep biar lu coli.\
     "
     }
 )
