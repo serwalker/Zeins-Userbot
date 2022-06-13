@@ -13,6 +13,7 @@ from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 
+
 @ayiin_cmd(pattern="asupan$")
 async def _(event):
     try:
@@ -32,6 +33,8 @@ async def _(event):
     except Exception:
         await event.edit("Tidak bisa menemukan video asupan.")
 
+
+
 @ayiin_cmd(pattern="desah$")
 async def _(event):
     try:
@@ -50,6 +53,8 @@ async def _(event):
         await event.delete()
     except Exception:
         await event.edit("Tidak bisa menemukan desahan.")
+
+
         
 @ayiin_cmd(pattern="ayang$")
 async def _(event):
