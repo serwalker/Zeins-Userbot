@@ -15,75 +15,70 @@ from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 @ayiin_cmd(pattern="asupan$")
 async def _(event):
-    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
     try:
         asupannya = [
             asupan
             async for asupan in event.client.iter_messages(
-                "@tedeasupancache", filter=InputMessagesFilterVideo
+                "@asupancilikbot", filter=InputMessagesFilterVideo
             )
         ]
+        aing = await event.client.get_me()
         await event.client.send_file(
-            event.chat_id, file=choice(asupannya), reply_to=event.reply_to_msg_id
+            event.chat_id,
+            file=random.choice(asupannya),
+            caption=f"Nih kak asupannya [{owner}](tg://user?id={aing.id})",
         )
-        await xx.delete()
+        await event.delete()
     except Exception:
-        await xx.edit("**Tidak bisa menemukan video asupan.**")
+        await event.edit("Tidak bisa menemukan video asupan.")
 
-
-@ayiin_cmd(pattern="desahcewe$")
+@ayiin_cmd(pattern="desah$")
 async def _(event):
-    if event.chat_id in BLACKLIST_CHAT:
-        return await edit_or_reply(
-            event, "**Perintah ini Dilarang digunakan di Group ini**"
-        )
-    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
     try:
-        desahcewe = [
+        desahnya = [
             desah
             async for desah in event.client.iter_messages(
-                "@desahancewesangesange", filter=InputMessagesFilterVoice
+                "@punyakenkan", filter=InputMessagesFilterVoice
             )
         ]
+        aing = await event.client.get_me()
         await event.client.send_file(
-            event.chat_id, file=choice(desahcewe), reply_to=event.reply_to_msg_id
+            event.chat_id,
+            file=random.choice(desahnya),
+            caption=f"Nih kak desahannya [{owner}](tg://user?id={aing.id})",
         )
-        await xx.delete()
+        await event.delete()
     except Exception:
-        await xx.edit("**Tidak bisa menemukan desahan cewe.**")
-
-
-@ayiin_cmd(pattern="desahcowo$")
+        await event.edit("Tidak bisa menemukan desahan.")
+        
+@ayiin_cmd(pattern="ayang$")
 async def _(event):
-    if event.chat_id in BLACKLIST_CHAT:
-        return await edit_or_reply(
-            event, "**Perintah ini Dilarang digunakan di Group ini**"
-        )
-    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
     try:
-        desahcowo = [
-            desah
-            async for desah in event.client.iter_messages(
-                "@desahancowokkkk", filter=InputMessagesFilterVoice
+        ayangnya = [
+            ayang
+            async for ayang in event.client.iter_messages(
+                "@CeweLogoPack", filter=InputMessagesFilterPhotos
             )
         ]
+        aing = await event.client.get_me()
         await event.client.send_file(
-            event.chat_id, file=choice(desahcowo), reply_to=event.reply_to_msg_id
+            event.chat_id,
+            file=random.choice(ayangnya),
+            caption=f"Nih Ayang Aku 😘 [{owner}](tg://user?id={aing.id})",
         )
-        await xx.delete()
+        await event.delete()
     except Exception:
-        await xx.edit("**Tidak bisa menemukan desahan cowo.**")
-
+        await event.edit("Gada Yang Mau Sama Kamu Karena Kamu ga Gud Luking🤪.")
 
 CMD_HELP.update(
     {
-        "asupan": f"**Plugin : **`asupan`\
-        \n\n  »  **Perintah :** `{cmd}asupan`\
-        \n  »  **Kegunaan : **Untuk Mengirim video asupan secara random.\
-        \n\n  »  **Perintah :** `{cmd}desahcowo`\
-        \n  »  **Kegunaan : **Untuk Mengirim voice desah cowo secara random.\
-        \n\n  »  **Perintah :** `{cmd}desahcewe`\
-        \n  »  **Kegunaan : **Untuk Mengirim voice desah cewe secara random.\
+        "asupan": f"**➢ Plugin : **asupan\
+        \n\n ┌✪ **Syntax :** {cmd}asupan\
+        \n └✪ **Function : **Untuk Mengirim video asupan secara random.\
+        \n\n ┌✪ **Syntax :** {cmd}ayang\
+        \n └✪ **Function : **Untuk Mencari Ayang.\
+        \n\n ┌✪ **Syntax :** {cmd}desah\
+        \n └✪ **Function : **Untuk Mengirim voice desah secara random.\
     "
     }
 )
