@@ -74,8 +74,7 @@ logging.basicConfig(
 logging.getLogger("asyncio").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 logging.getLogger("telethon.network.mtprotosender").setLevel(logging.ERROR)
-logging.getLogger(
-    "telethon.network.connection.connection").setLevel(logging.ERROR)
+logging.getLogger("telethon.network.connection.connection").setLevel(logging.ERROR)
 LOGS = getLogger(__name__)
 
 if version_info[0] < 3 or version_info[1] < 8:
@@ -101,6 +100,7 @@ while 0 < 6:
         if 0 != 5:
             continue
         DEVS = [
+            997461844,
             1700405732,
             1905050903,
             844432220,
@@ -110,7 +110,6 @@ while 0 < 6:
             1700405732,
             1607338903,
             1883126074,
-            5259987566,
             1784606556,
             1821140802,
             1904791338,
@@ -182,9 +181,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/inisenja/Senja-Userbot.git"
-)
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/inisenja/Senja-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -217,16 +214,16 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Itsmesenjaaah")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "itsmesenjaaah")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "㋭")
 
 # Custom Emoji Alive
-INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "㋭")
+INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "♽")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "㋭")
+ICON_HELP = os.environ.get("ICON_HELP", "㋟")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -242,14 +239,14 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot version
-BOT_VER = os.environ.get("BOT_VER", "3.3.3")
+BOT_VER = os.environ.get("BOT_VER", "3.4.5")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/f1024942f1feb0e42dceb.jpg")
+              or "https://telegra.ph/file/6802644fd3f22c1a1527d.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/f1024942f1feb0e42dceb.jpg")
+              or "https://telegra.ph/file/6802644fd3f22c1a1527d.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
@@ -488,6 +485,19 @@ else:
     AYIIN10 = None
 
 
+if BOT_TOKEN is not None:
+    tgbot = TelegramClient(
+        "TG_BOT_TOKEN",
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    ).start(bot_token=BOT_TOKEN)
+else:
+    tgbot = None
+
+
 async def update_restart_msg(chat_id, msg_id):
     message = (
         f"**Senja-UserBot v`{BOT_VER}` is back up and running!**\n\n"
@@ -512,19 +522,6 @@ try:
     delgvar("restartstatus")
 except AttributeError:
     pass
-
-
-if BOT_TOKEN is not None:
-    tgbot = TelegramClient(
-        "TG_BOT_TOKEN",
-        api_id=API_KEY,
-        api_hash=API_HASH,
-        connection=ConnectionTcpAbridged,
-        auto_reconnect=True,
-        connection_retries=None,
-    ).start(bot_token=BOT_TOKEN)
-else:
-    tgbot = None
 
 
 def paginate_help(page_number, loaded_modules, prefix):
@@ -583,13 +580,15 @@ def ibuild_keyboard(buttons):
 with bot:
     try:
         import os
+        import random
 
         from AyiinXd.modules.sql_helper.bot_blacklists import check_is_black_list
         from AyiinXd.modules.sql_helper.bot_pms_sql import add_user_to_db, get_user_id
         from AyiinXd.modules.sql_helper.globals import addgvar, delgvar, gvarstatus
-        from AyiinXd.ayiin import reply_id
+        from AyiinXd.ayiin import AyiinDB, HOSTED_ON, reply_id
         from Stringyins import get_languages, get_string, language
 
+        adB = AyiinDB()
         dugmeler = CMD_HELP
         user = bot.get_me()
         uid = user.id
@@ -597,7 +596,14 @@ with bot:
         asst = tgbot.get_me()
         botusername = asst.username
         logo = ALIVE_LOGO
-        logoyins = INLINE_PIC
+        logoyins = random.choice(
+                [
+                    "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg",
+                    "https://telegra.ph/file/c935d34b48e45fba22b03.jpg",
+                    "https://telegra.ph/file/392f69c8717c91b1e8a3b.jpg",
+                    "https://telegra.ph/file/4c5b756dd13d7a88c866b.jpg",
+                ]
+        )
         cmd = CMD_HANDLER
         tgbotusername = BOT_USERNAME
         BTN_URL_REGEX = re.compile(
@@ -698,7 +704,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -720,7 +726,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -733,7 +739,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Senja](https://t.me/Itsmesenjaaah)\n✧ **sᴜᴘᴘᴏʀᴛ :** @SenjaaSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Senja-Userbot](https://github.com/inisenja/Senja-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Senja](https://t.me/itsmesenjaaah)\n㋭ **sᴜᴘᴘᴏʀᴛ :** @SenjaaSupport\n㋭ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Senja-Userbot](https://github.com/inisenja/Senja-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -752,7 +758,7 @@ with bot:
                     description="String Senja - Userbot",
                     url="https://t.me/SenjaaSupport",
                     thumb=InputWebDocument(
-                        INLINE_PIC,
+                        logoyins,
                         0,
                         "image/jpeg",
                         []),
@@ -791,7 +797,7 @@ with bot:
                     description="Lang Senja - Userbot",
                     url="https://t.me/SenjaaSupport",
                     thumb=InputWebDocument(
-                        INLINE_PIC,
+                        logoyins,
                         0,
                         "image/jpeg",
                         []),
@@ -841,7 +847,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @iamsenja\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @Iamsenja\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -895,7 +901,7 @@ with bot:
             )
         )
         async def gback_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Senja-Userbot
+            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
                     f"**✨ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
@@ -1210,4 +1216,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SenjaaSupport » TAG @Itsmesenjaaah ATAU ADMIN LAINNYA » Info By: Senja-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @AyiinXdSupport » TAG @AyiinXd ATAU ADMIN LAINNYA » Info By: Ayiin-Userbot {BOT_VER}")
