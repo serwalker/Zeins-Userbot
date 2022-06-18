@@ -36,9 +36,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <h4> Generate Session via Repl: </h4>    
 <p><a href="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 <h4> Generate Session via Telegram StringGen Bot: </h4>    
-<p><a href="https://t.me/AyiinStringRobot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+<p><a href="https://t.me/StringNjaRobot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
     
-<details>
+</details>
 
 <details>
 <summary><b>🔗 Deploy di VPS</b></summary>
@@ -68,32 +68,6 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 </details>
 
 <details>
-<summary><b>🔗 Deploy di VPS</b></summary>
-<br>
-    
-### REQUIREMENTS PACKAGE !
--  Update & upgrade VPS anda `sudo apt update && upgrade -y`
--  Install Git `sudo apt install git -y`
--  Install Python3 `sudo apt install python3`
--  Install PIP / PIP3 `sudo apt install python3-pip`
--  Install NodeJs 16.X `curl -fsSL https://deb.nodesource.com/setup_16.x | sudo bash -` then do `sudo apt install -y nodejs vim`
--  Install FFMPEG `sudo apt install tree wget2 p7zip-full jq ffmpeg wget git -y`
--  Install Chrome `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb` 
-- lalu ketik `sudo apt install ./google-chrome-stable_current_amd64.deb`
-
-### Tutorial Deploy di VPS
-
--  `git clone https://github.com/inisenja/Senja-Userbot`
--  `cd Senja-Userbot`
--  `pip3 install -r requirements.txt`
--  `mv sample_config.env config.env`
--  edit config.env Anda dan isi VARS menggunakan `nano config.env` `CTRL + S ` untuk menyimpan VARS Anda, gunakan `CTRL + X` untuk keluar dan kembali ke direktori Ayiin-Userbot
--  Buka SCRREN di VPS Anda `screen -S Senja-Userbot`
--  Kemudian gunakan perintah ini untuk menyebarkan Ayiin-Userbot `bash start`
-
-</details>
-
-<details>
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
@@ -105,13 +79,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Bot Heroku</b></summary>
 <br>
 
-<p><a href="https://telegram.dog/XTZ_HerokuBot?start=aW5pc2VuamEvU2VuamEtVXNlcmJvdCBzZW5qYS11c2VyYm90"><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
+<p><a href="https://telegram.dog/XTZ_HerokuBot?start=QXlpaW5YZC9BeWlpbi1Vc2VyYm90IEF5aWluLVVzZXJib3Q"><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
 
 </details>
 
 ## Updates & Support
 
-Follow Channel [@Iamsenja](https://t.me/Iamsenja) untuk info Update bot dan Gabung Group [@SenjaaSupport](https://t.me/SenjaaSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Senja-Userbot.
+Follow Channel [@Iamsenja](https://t.me/iamsenja) untuk info Update bot dan Gabung Group [@SenjaaSupport](https://t.me/SenjaaSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Senja-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
