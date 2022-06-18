@@ -38,6 +38,33 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <h4> Generate Session via Telegram StringGen Bot: </h4>    
 <p><a href="https://t.me/AyiinStringRobot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
     
+<details>
+
+<details>
+<summary><b>🔗 Deploy di VPS</b></summary>
+<br>
+
+### Tutorial Deploy di VPS
+
+
+ • `git clone https://github.com/inisenja/Senja-Userbot`
+
+ • `cd Senja-Userbot`
+
+ • `pip3 install -U -r requirements.txt`
+
+ • `mv sample_config.env config.env`
+
+ • `nano config.env`
+  - isi vars
+  - Jika sudah 
+  - ketik ctrl + S
+  - ctrl + X
+
+ • `screen -S Senja-Userbot`
+
+ • `bash start`
+
 </details>
 
 <details>
