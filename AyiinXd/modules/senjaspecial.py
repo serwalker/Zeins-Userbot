@@ -43,7 +43,6 @@ async def _(event):
         ]
         await event.client.send_file(
             event.chat_id, file=choice(ayangnya), reply_to=event.reply_to_msg_id
-            caption=f"Nih Ayang Aku 😘 [{owner}](tg://user?id={aing.id})",
         )
         await xx.delete()
     except Exception:
