@@ -214,7 +214,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "ʜᴀɪ,sᴀʏᴀ ᴘᴇɴɢɢᴜɴᴀ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "itsmesenjaaah")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "senja_ex")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "㋭")
@@ -739,7 +739,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Senja](https://t.me/itsmesenjaaah)\n㋭ **sᴜᴘᴘᴏʀᴛ :** @SenjaaSupport\n㋭ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Senja-Userbot](https://github.com/inisenja/Senja-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Senja-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Senja](https://t.me/senja_ex)\n㋭ **sᴜᴘᴘᴏʀᴛ :** @SenjaaSupport\n㋭ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Senja-Userbot](https://github.com/inisenja/Senja-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -1216,4 +1216,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @AyiinXdSupport » TAG @AyiinXd ATAU ADMIN LAINNYA » Info By: Ayiin-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @SenjaSupport » TAG @Senja_ex ATAU ADMIN LAINNYA » Info By: Senja-Userbot {BOT_VER}")
