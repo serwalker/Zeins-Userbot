@@ -32,44 +32,21 @@ async def _(event):
 
 
 @ayiin_cmd(pattern="ayang$")
-
 async def _(event):
-
-    memeks = await event.reply("**Mencari Foto Ayang...🔍**") 
-
+    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
     try:
-
         ayangnya = [
-
             ayang
-
-            async for ayang in ubot2.iter_messages(
-
-            "@papcecanindo", filter=InputMessagesFilterPhotos
-
+            async for nc in event.client.iter_messages(
+                "@papcecanindo", filter=InputMessagesFilterPhotos
             )
-
         ]
-
-        kontols = random.choice(ayangnya)
-
-        pantek = await ubot2.download_media(kontols)
-
-        await tbot.send_file(
-
-            event.chat.id, 
-
-            caption="Nih Ayang Nya Aku Kak ❤️🥵", 
-
-            file=pantek
-
-            )
-
-        await memeks.delete()
-
+        await event.client.send_file(
+            event.chat_id, file=choice(ayangnya), reply_to=event.reply_to_msg_id
+        )
+        await xx.delete()
     except Exception:
-
-        await memeks.edit("Ayangnya gaada komsol")
+        await xx.edit("**Gak ada ayang lu positip aja mungkin lu jelek hahaha.**")
 
 
 @ayiin_cmd(pattern="nc$")
