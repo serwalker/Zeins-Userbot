@@ -598,10 +598,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/6802644fd3f22c1a1527d.jpg",
-                    "https://telegra.ph/file/6802644fd3f22c1a1527d.jpg",
-                    "https://telegra.ph/file/6802644fd3f22c1a1527d.jpg",
-                    "https://telegra.ph/file/6802644fd3f22c1a1527d.jpg",
+                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
+                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
+                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
+                    "https://telegra.ph/file/97e7d96e55fb8316574aa.jpg",
                 ]
         )
         cmd = CMD_HANDLER
