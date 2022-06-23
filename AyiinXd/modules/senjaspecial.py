@@ -37,16 +37,17 @@ async def _(event):
     try:
         ayangnya = [
             ayang
-            async for nc in event.client.iter_messages(
+            async for ayang in event.client.iter_messages(
                 "@papcecanindo", filter=InputMessagesFilterPhotos
             )
         ]
         await event.client.send_file(
             event.chat_id, file=choice(ayangnya), reply_to=event.reply_to_msg_id
+            caption=f"Nih Ayang Aku 😘 [{owner}](tg://user?id={aing.id})",
         )
         await xx.delete()
     except Exception:
-        await xx.edit("**Gak ada ayang lu positip aja mungkin lu jelek hahaha.**")
+        await xx.edit("**Gak ada ayang?Positif aja mungkin kau jelek haha.**")
 
 
 @ayiin_cmd(pattern="nc$")
