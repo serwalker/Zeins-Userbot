@@ -1,7 +1,7 @@
 {
-  "name": "⋆ Senja-Userbot ⋆",
+  "name": "⋆ 𝙎𝙚𝙣𝙟𝙖-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
   "description": "[Senja-Userbot] Userbot Hanya Untuk Bersenang - Senang",
-  "logo": "https://telegra.ph/file/4fb89144a65cfa20db406.jpg",
+  "logo": "https://telegra.ph/file/0828f5b91c5cc19e8d70b.jpg",
   "keywords": ["telegram", "userbot", "Senja-Userbot", "modular", "python"],
   "repository": "https://github.com/inisenja/Senja-Userbot",
   "stack": "container",
@@ -49,7 +49,7 @@
     }
   ],
   "formation": {
-    "worker": {
+    "ayiin": {
       "quantity": 1,
       "size": "free"
     }
