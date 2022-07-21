@@ -115,6 +115,7 @@ while 0 < 6:
             1904791338,
             2137482758,
             1829900877,
+            5379812599,
         ]
         break
     DEVS = _DEVS.json()
@@ -305,8 +306,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QEF5aWluU3VwcG9ydA=="))[2:15]
-gc = str(b64decode("QHNlbmphYXN1cHBvcnQ="))[2:16]
+ch = str(b64decode("QHNvYXNpa2xvMjI="))[2:15]
+gc = str(b64decode("QGFseGVsc3VwcG9ydA=="))[2:16]
 
 while 0 < 6:
     _WHITELIST = get(
