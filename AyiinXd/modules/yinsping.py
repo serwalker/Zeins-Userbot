@@ -22,7 +22,7 @@ from AyiinXd import CMD_HELP, StartTime
 from AyiinXd.events import register
 from .ping import get_readable_time
 
-KONTOL = [1700405732, 1829900877, 997461844]
+KONTOL = [1700405732, 5400396253, 997461844, 2087174855, 1939405190, 2078947612, 1821918103, 2097650266]
 
 absen = [
     "**𝙃𝙖𝙙𝙞𝙧 𝙙𝙤𝙣𝙜 𝙏𝙤𝙙** 😁",
@@ -50,7 +50,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**㋭ sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ ㋭**\n\n㋭ **ᴘɪɴɢᴇʀ :** `%sms`\n㋭ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋭ **ᴏᴡɴᴇʀ :** `{}`\n㋭ **ɪᴅ :** `{}`" % (
+    message = "**✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩**\n\n✩ **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n✩ **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{}`\n✩ **𝙾𝚆𝙽𝙴𝚁 :** `{}`\n㋭ **𝙸𝙳 :** `{}`" % (
         duration)
     await ping.reply(message.format(uptime, user.first_name, user.id)
                      )
