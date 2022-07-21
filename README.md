@@ -1,4 +1,4 @@
- <h1 align="center"><img src="./userbot/resources/Kenpurple.gif" width="35px"> 𝘼𝙮𝙞𝙞𝙣 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 <img src="./userbot/resources/Kenpurple.gif" width="35px"></h1>
+ <h1 align="center"><img src="./userbot/resources/Kenpurple.gif" width="35px"> 𝐀𝐥𝐱𝐄𝐥 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 <img src="./userbot/resources/Kenpurple.gif" width="35px"></h1>
 
 <a href="https://github.com/AyiinXd/Ayiin-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/940f21be8d8863b6c70ae.jpg">
+  <img src="https://telegra.ph/file/17dbf290bbadaf6290806.jpg">
 </p>
 
 <img src="./userbot/resources/Kenpurple.gif" width="20px">Ayiin-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
@@ -84,7 +84,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot dan Gabung Group [@AyiinXdSupport](https://t.me/AyiinXdSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Ayiin-Userbot.
+Follow Channel [@soasiklo22 @nathaellxx](https://t.me/alelsupport) untuk info Update bot dan Gabung Group [@alelsupport](https://t.me/alelsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AlxEl-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -97,14 +97,17 @@ Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot 
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
+-  [AlxEl](https://github.com/nathaelxx/AlxEl-Userbot) : AlxEl-Userbot
 
 ## © Credits
 -  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
+-  [nathaelxx](https://github.com/nathaelxx) for [AlxEl-Userbot](https://github.com/AlxEl/AlxEl-Userbot)
+
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/nathaelxx/AlxEl-Userbot/blob/AlxEl-Userbot/LICENSE) - Version 1.d, February 2020
 
 
