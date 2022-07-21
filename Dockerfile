@@ -1,11 +1,11 @@
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b alxxel https://github.com/nathaelxx/alxxel /home/alxxel/ \
-    && chmod 777 /home/alxxel \
-    && mkdir /home/alxxel/bin/
+RUN git clone -b alxxel https://github.com/nathaelxx/alxel /home/alxel/ \
+    && chmod 777 /home/alxel \
+    && mkdir /home/alxel/bin/
 
-COPY ./sample_config.env ./config.env* /home/alxxel/
+COPY ./sample_config.env ./config.env* /home/alxel/
 
-WORKDIR /home/alxxel/
+WORKDIR /home/alxel/
 
 CMD ["bash","start"]
