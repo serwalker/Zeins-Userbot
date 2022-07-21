@@ -57,8 +57,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="sᴇɴᴊᴀ-Usᴇʀʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: Senja-Userbot\n\n» Support : @SenjaSupport\n» Support : @iamsenja",
+                title="AʟxEʟ-Usᴇʀʙᴏᴛ Lᴏɢs",
+                about="» Group log Created by: AlxEl-Userbot\n\n» Support : @SenjaSupport\n» Support : @iamsenja",
                 megagroup=True,
             ),
         )
@@ -154,7 +154,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "AyiinXd/resources/20220613_050648.jpg")
+            await bot.send_file(bf, "AyiinXd/resources/IMG_20220721_182252_897.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -167,7 +167,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Iamsenja ✨"
+                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @soasiklo22 ✨"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -198,7 +198,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "AyiinXd/resources/20220613_050648.jpg")
+        await bot.send_file(bf, "AyiinXd/resources/IMG_20220721_182252_897.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
@@ -211,7 +211,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Iamsenja ✨"
+            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @soasiklo22 ✨"
         )
         await bot.send_message(
             BOTLOG_CHATID,
