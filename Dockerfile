@@ -1,16 +1,16 @@
 #==============×==============#
 #      Created by: Alfa-Ex
-#=========× AyiinXd ×=========#
+#=========× Ayiin ×=========#
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Alxxel https://github.com/nathaelxx/AlxEL-Userbot /home/alxxel/ \
-    && chmod 777 /home/alxxel \
-    && mkdir /home/alxxel/bin/
+RUN git clone -b ALxEL-Userbot https://github.com/nathaelxx/ALxEL-Userbot /home/alxeluserbot/ \
+    && chmod 777 /home/alxeluserbot \
+    && mkdir /home/alxeluserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/alxxel/
+COPY ./sample_config.env ./config.env* /home/alxeluserbot/
 
-WORKDIR /home/alxxel/
+WORKDIR /home/alxeluserbot/
 
 RUN pip install -r requirements.txt
 
