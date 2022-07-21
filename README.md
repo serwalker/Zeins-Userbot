@@ -12,7 +12,7 @@
   <img src="https://telegra.ph/file/17dbf290bbadaf6290806.jpg">
 </p>
 
-👩‍💻 Senja-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+👩‍💻 AlxEl-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Senja-Userbot`
+ • `screen -S AlxEl-Userbot`
 
  • `bash start`
 
@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@Iamsenja](https://t.me/iamsenja) untuk info Update bot dan Gabung Group [@SenjaaSupport](https://t.me/SenjaaSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Senja-Userbot.
+Follow Channel [@soasiklo22 @nathaellxx](https://t.me/im_el69) untuk info Update bot dan Gabung Group [@alelsupport](https://t.me/alelsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AlxEl-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -98,14 +98,17 @@ Follow Channel [@Iamsenja](https://t.me/iamsenja) untuk info Update bot dan Gabu
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
+-  [AlxEl](https://github.com/nathaelxx/AlxEl-Userbot) : AlxEl-Userbot
 
 ## © Credits
 -  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
+-  [nathaelxx](https://github.com/nathaelxx) for [AlxEl-Userbot](https://github.com/AlxEl/AlxEl-Userbot)
+
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/nathaelxx/AlxEl-Userbot/blob/AlxEl-Userbot/LICENSE) - Version 1.d, February 2020
 
 
