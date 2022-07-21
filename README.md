@@ -1,4 +1,4 @@
- <h1 align="center">✨ 𝙎𝙚𝙣𝙟𝙖 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃</h1>
 
 <a href="https://github.com/inisenja/Senja-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/inisenja/Senja-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/inisenja/Senja-Userbot)
@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/0828f5b91c5cc19e8d70b.jpg">
+  <img src="https://telegra.ph/file/17dbf290bbadaf6290806.jpg">
 </p>
 
 👩‍💻 Senja-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
