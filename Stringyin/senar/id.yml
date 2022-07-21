@@ -361,15 +361,15 @@ gban_1: "**𝘽𝙖𝙣𝙣𝙚𝙙 𝙎𝙥𝙤𝙩𝙚𝙙**\n**𝙁𝙞𝙧�
 gban_2: "`Pemrosesan larangan global...`"
 gban_3: "`𖣘 Larangan Global Akan Aktif...`"
 gban_4: "**Maaf Telah Terjadi Kesalahan :(**"
-gban_5: "**Apakah Anda Gila ?.. Dia Adalah Developer Senja-Userbot 🤪**"
-gban_6: "**Apakah Anda Gila ?... Dia Adalah Admin @SenjaaSupport 🤪**"
+gban_5: "**Apakah Anda Gila ?.. Dia Adalah Developer ALxEL-Userbot 🤪**"
+gban_6: "**Apakah Anda Gila ?... Dia Adalah Admin @alxelsupport 🤪**"
 gban_7: "**\\#𝙂𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`"
 gban_8: "**Mohon Balas Ke Pesan Penggunanya**"
 gban_9: "**#𝘼𝙡𝙧𝙚𝙖𝙙𝙮_𝙂𝘽𝙖𝙣𝙣𝙚𝙙**\n\n Pengguna Sudah Ada Di Daftar Larangan Global Saya.**"
 gban_10: "**\\#𝙂𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩**"
 ungban_1: "`Membatalkan Perintah Larangan Global...`"
 ungban_2: "`Gagal Membatalkan Perintah Larangan Global...`"
-ungban_3: "`Gagal Membatalkan Perintah Larangan Global... Karena Dia Ada Di Daftar Hitam Senja-Userbot`"
+ungban_3: "`Gagal Membatalkan Perintah Larangan Global... Karena Dia Ada Di Daftar Hitam ALxEL-Userbot`"
 ungban_4: "**\\#𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙐𝙣𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩**"
 
 # gcast tools
@@ -438,8 +438,8 @@ hzmt_3: "`Perintah Hazmat Diaktifkan, Sedang Memproses...`"
 hzmt_4: "`Mohon Maaf, GIF Tidak Bisa...`"
 
 # helper tools
-hlpr_1: "**Hai {} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{}help` Atau Bisa Minta Bantuan Ke:\n⍟ **Group Support :** [sᴇɴᴊᴀ sᴜᴘᴘᴏʀᴛ](t.me/SenjaaSupport)\n⍟ **Channel Senja :** [ɪᴀᴍsᴇɴᴊᴀ](t.me/iamsenja)\n⍟ **Owner Repo :** [sᴇɴᴊᴀ-ᴇx](t.me/itsmesenjaaah)\n⍟ **Repo :** [sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/inisenja/Senja-Userbot)\n"
-hlpr_2: "**Daftar Lengkap Vars Dari Senja-Userbot:** [KLIK DISINI](https://telegra.ph/List-Variable-Heroku-Untuk-Ayiin-Userbot-02-08)"
+hlpr_1: "**Hai {} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{}help` Atau Bisa Minta Bantuan Ke:\n⍟ **Group Support :** [sᴇɴᴊᴀ sᴜᴘᴘᴏʀᴛ](t.me/alxelsupport)\n⍟ **Channel nathaellxx :** [ɪᴀᴍsᴇɴᴊᴀ](t.me/im_el69)\n⍟ **Owner Repo :** [sᴇɴᴊᴀ-ᴇx](t.me/nathaellxx)\n⍟ **Repo :** [sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/nathaelxx/ALxEL-Userbot)\n"
+hlpr_2: "**Daftar Lengkap Vars Dari ALxEL-Userbot:** [KLIK DISINI](https://telegra.ph/List-Variable-Heroku-Untuk-Ayiin-Userbot-02-08)"
 
 # hentai tools
 hentai_1: "**Maaf saya tidak bisa mendapatkan manga dari**"
@@ -536,7 +536,7 @@ shtdwn_1: "**#SHUTDOWN** \n**✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾�
 shtdwn_2: "**✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩ Berhasil di matikan!**"
 rstrt_1: "**✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩ Berhasil di Restart**"
 rstrt_2: "#RESTART \n**✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩Berhasil Di Restart**"
-rdme_1: "**Berikut sesuatu untuk kamu baca:**\n\n𑁍 [Userbot Repo](https://github.com/inisenja/Senja-Userbot/blob/Senja-Userbot/README.md)\n𑁍 [Video Tutorial](https://youtu.be/tTDaPKsGC1I)\n✣ [List Variabel Heroku untuk Senja-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)\n✣ [Setup Guide - Basic](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)\n✣ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
+rdme_1: "**Berikut sesuatu untuk kamu baca:**\n\n𑁍 [Userbot Repo](https://github.com/nathaelxx/ALxEL-Userbot/blob/ALxEL-Userbot/README.md)\n𑁍 [Video Tutorial](https://youtu.be/tTDaPKsGC1I)\n✣ [List Variabel Heroku untuk ALxEL-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)\n✣ [Setup Guide - Basic](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)\n✣ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
 repo_1: "**Hey**, Saya Pengguna **✩ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✩** \n〆━━━━━━━━━━━━━━━━━〆\n➣ ** ✩𝚁𝙴𝙿𝙾 𝙱𝙾𝚃 :** [𝙶𝙸𝚃𝙷𝚄𝙱](https://github.com/nathaelxx/ALxEL-Userbot)\n➣ ** 𝙾𝚆𝙽𝙴𝚁𝙱𝙾𝚃       :** [𝙰𝙻𝚡𝙴𝙻](t.me/im_el69)\n〆━━━━━━━━━━━━━━━━━〆\n➣ ** 𝚂𝚄𝙿𝙿𝙾𝚁𝚃           :** [𝙶𝚁𝙾𝚄𝙿](https://t.me/AlxElSupport)\n➣ ** 𝚂𝚄𝙿𝙿𝙾𝚁𝚃           :** [𝙲𝙷𝙰𝙽𝙽𝙴𝙻](https://t.me/soasiklo22)\n〆━━━━━━━━━━━━━━━━━〆\n"
 raw_1: "`Periksa log userbot untuk data pesan yang didekodekan !!`"
 raw_2: "**Inilah data pesan yang didecodekan !!**"
