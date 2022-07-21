@@ -4,13 +4,13 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Senja-Userbot https://github.com/inisenja/Senja-Userbot /home/senjauserbot/ \
-    && chmod 777 /home/senjauserbot \
-    && mkdir /home/senjauserbot/bin/
+RUN git clone -b AlxEL-Userbot https://github.com/nathaelxx/AlxEL-Userbot /home/alxeluserbot/ \
+    && chmod 777 /home/alxeluserbot \
+    && mkdir /home/alxeluserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/senjauserbot/
+COPY ./sample_config.env ./config.env* /home/alxeluserbot/
 
-WORKDIR /home/senjauserbot/
+WORKDIR /home/alxeluserbot/
 
 RUN pip install -r requirements.txt
 
