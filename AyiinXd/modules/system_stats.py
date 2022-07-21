@@ -172,19 +172,19 @@ async def bot_ver(event):
 async def amireallyalive(alive):
     user = await alive.client.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
-    await alive.edit("🥵")
+    await alive.edit("💦")
     await asyncio.sleep(3)
     output = (
-        f"**[sᴇɴᴊᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/inisenja/Senja-Userbot)ㅤᴜᴅᴀʜ ᴀᴋᴛɪғ ʏᴀ ʙᴀʙɪ.**\n\n"
+        f"**[𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://github.com/nathaelxx/ALxEL-Userbot)ㅤ𝚄𝙳𝙰𝙷 𝙰𝙺𝚃𝙸𝙵 𝚈𝙰 𝙺𝙾𝙽𝚃𝙾𝙻.**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"{emoji} **ᴍᴀsᴛᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
-        f"{emoji} **ᴍᴏᴅᴜʟᴇs :** `{len(modules)} Modules` \n"
-        f"{emoji} **ʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `{BOT_VER}` \n"
-        f"{emoji} **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{python_version()}` \n"
-        f"{emoji} **ᴘʏᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ :** `{pytgcalls.__version__}` \n"
-        f"{emoji} **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"{emoji} **ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
+        f"{emoji} **𝙼𝙰𝚂𝚃𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id}) \n"
+        f"{emoji} **𝙼𝙾𝙳𝚄𝙻𝙴𝚂 :** `{len(modules)} Modules` \n"
+        f"{emoji} **𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `{BOT_VER}` \n"
+        f"{emoji} **𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `{python_version()}` \n"
+        f"{emoji} **𝙿𝚈𝚃𝙶𝙲𝙰𝙻𝙻 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `{pytgcalls.__version__}` \n"
+        f"{emoji} **𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 :** `{version.__version__}` \n"
+        f"{emoji} **𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
         f"    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={user.id})**"
     )
