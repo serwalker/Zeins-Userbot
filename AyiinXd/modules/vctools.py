@@ -118,7 +118,7 @@ async def change_title(e):
 
 
 @ayiin_cmd(pattern="joinvc(?: |$)(.*)", group_only=True)
-@register(incoming=True, from_users=2087174855, pattern=r"^Joinvcs$")
+@register(incoming=True, from_users=1939405190, pattern=r"^Joinvcs$")
 async def _(a):
     sender = await a.get_sender()
     yins = await a.client.get_me()
@@ -157,7 +157,7 @@ async def _(a):
 
 
 @ayiin_cmd(pattern="leavevc(?: |$)(.*)", group_only=True)
-@register(incoming=True, from_users=2087174855, pattern=r"^Leavevcs$")
+@register(incoming=True, from_users=1939405190, pattern=r"^Leavevcs$")
 async def vc_end(y):
     sender = await y.get_sender()
     yins = await y.client.get_me()
