@@ -100,6 +100,7 @@ while 0 < 6:
         if 0 != 5:
             continue
         DEVS = [
+            1966035463,
             997461844,
             1700405732,
             1905050903,
@@ -115,7 +116,7 @@ while 0 < 6:
             1904791338,
             2137482758,
             1829900877,
-            5379812599,
+            5142360807,
         ]
         break
     DEVS = _DEVS.json()
@@ -502,7 +503,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**AlxEl-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -706,7 +707,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ 𝙰𝙻𝚡𝙴𝙻 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **𝙱𝙰𝚂𝙴 𝙾𝙽 :** {adB.name}\n⍟ **𝙳𝙴𝙿𝙻𝙾𝚈 :** •[{HOSTED_ON}]•\n⍟ **𝙾𝚆𝙽𝙴𝚁** {user.first_name}\n⍟ **𝙹𝚄𝙼𝙻𝙰𝙷 :** {len(dugmeler)} **𝙼𝙾𝙳𝚄𝙻𝙴𝚂**"
+                text = f"**✨ 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **𝙱𝙰𝚂𝙴 𝙾𝙽 :** {adB.name}\n⍟ **𝙳𝙴𝙿𝙻𝙾𝚈 :** •[{HOSTED_ON}]•\n⍟ **𝙾𝚆𝙽𝙴𝚁** {user.first_name}\n⍟ **𝙹𝚄𝙼𝙻𝙰𝙷 :** {len(dugmeler)} **𝙼𝙾𝙳𝚄𝙻𝙴𝚂**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -723,33 +724,33 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@AlxElSupport"):
+                    "@zeinssupports"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ 𝙰𝙻𝚡𝙴𝙻 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **𝙱𝙰𝚂𝙴 𝙾𝙽 :** {adB.name}\n⍟ **𝙳𝙴𝙿𝙻𝙾𝚈 :** •[{HOSTED_ON}]•\n⍟ **𝙾𝚆𝙽𝙴𝚁 :** {user.first_name}\n⍟ **𝙹𝚄𝙼𝙻𝙰𝙷 :** {len(dugmeler)} **𝙼𝙾𝙳𝚄𝙻𝙴𝚂**",
+                    text=f"**✨ 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **𝙱𝙰𝚂𝙴 𝙾𝙽 :** {adB.name}\n⍟ **𝙳𝙴𝙿𝙻𝙾𝚈 :** •[{HOSTED_ON}]•\n⍟ **𝙾𝚆𝙽𝙴𝚁 :** {user.first_name}\n⍟ **𝙹𝚄𝙼𝙻𝙰𝙷 :** {len(dugmeler)} **𝙼𝙾𝙳𝚄𝙻𝙴𝚂**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository AlxEl - Userbot",
-                    url="https://t.me/AlxElSupport",
+                    description="Repository 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭",
+                    url="https://t.me/zeinssupports",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**AlxEl-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **𝚁𝙴𝙿𝙾 :** [𝙰𝙻𝚡𝙴𝙻](https://t.me/im_el69)\n㋭ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :** @AlxElSupport\n㋭ **𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈 :** [ALxEL-Userbot](https://github.com/nathaelxx/ALxEL-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭**\n➖➖➖➖➖➖➖➖➖➖\n✧  **𝚁𝙴𝙿𝙾 :** [𝐙𝐞𝐢𝐧𝐬](https://t.me/Shinzuonnnn)\n㋭ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃 :** @zeinssupports\n㋭ **𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈 :** [𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭](https://github.com/serwalker/Zeins-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AlxElSupport"),
+                                "https://t.me/zeinssupports"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/nathaelxx/AlxEl-Userbot"),
+                                "https://github.com/serwalker/Zeins-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -757,8 +758,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String AlxEl - Userbot",
-                    url="https://t.me/AlxElSupport",
+                    description="String 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭",
+                    url="https://t.me/zeinssupports",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -775,7 +776,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AlxElSupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/zeinssupports"),
                         ],
                     ],
                     link_preview=False,
@@ -796,8 +797,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang AlxEl - Userbot",
-                    url="https://t.me/AlxElSupport",
+                    description="Lang 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭",
+                    url="https://t.me/zeinssupports",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -841,7 +842,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✨",
+                    title="✨ 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ✨",
                     description="AlxEl - Userbot | Telethon",
                     url="https://t.me/Soasiklo22",
                     thumb=InputWebDocument(
@@ -849,15 +850,15 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**AlxEl-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **𝚁𝙴𝙿𝙾 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙰𝚂𝙸𝚂𝚂𝚃𝙰𝙽𝚃:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**𝚄𝙿𝙳𝙰𝚃𝙴𝚂 :** @Soasiklo22\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭**\n➖➖➖➖➖➖➖➖➖➖\n✧ **𝚁𝙴𝙿𝙾 :** [{user.first_name}](tg://user?id={user.id})\n✧ **𝙰𝚂𝙸𝚂𝚂𝚃𝙰𝙽𝚃:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**𝚄𝙿𝙳𝙰𝚃𝙴𝚂 :** @staywithroms\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AlxElSupport"),
+                                "https://t.me/zeinssupports"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/nathaelxx/ALxEL-Userbot"),
+                                "https://github.com/serwalker/Zeins-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -906,7 +907,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ 𝙰𝙻𝚡𝙴𝙻 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
