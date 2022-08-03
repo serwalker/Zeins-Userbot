@@ -12,7 +12,7 @@ RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot-Userbo
 
     && mkdir /home/Zeins-Userbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/Zeins-Userbot/
+COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
 
 WORKDIR /home/Zeins-Userbot/
 
