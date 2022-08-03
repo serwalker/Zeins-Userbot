@@ -168,8 +168,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "AlxElSupport")
-CHANNEL = os.environ.get("CHANNEL", "soasiklo22")
+GROUP = os.environ.get("GROUP", "zeinssupports")
+CHANNEL = os.environ.get("CHANNEL", "staywithroms")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -183,7 +183,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/nathaelxx/ALxEL-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/serwalker/Zeins-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -213,7 +213,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙰𝙸,𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "𝙷𝙰𝙸,𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "im_el69")
@@ -245,10 +245,10 @@ BOT_VER = os.environ.get("BOT_VER", "3.4.5")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/17dbf290bbadaf6290806.jpg")
+              or "https://telegra.ph/file/aa06ff5c401cf398acb59.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/17dbf290bbadaf6290806.jpg")
+              or "https://telegra.ph/file/aa06ff5c401cf398acb59.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
@@ -601,10 +601,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/17dbf290bbadaf6290806.jpg",
-                    "https://telegra.ph/file/17dbf290bbadaf6290806.jpg",
-                    "https://telegra.ph/file/17dbf290bbadaf6290806.jpg",
-                    "https://telegra.ph/file/17dbf290bbadaf6290806.jpg",
+                    "https://telegra.ph/file/aa06ff5c401cf398acb59.jpg",
+                    "https://telegra.ph/file/aa06ff5c401cf398acb59.jpg",
+                    "https://telegra.ph/file/aa06ff5c401cf398acb59.jpg",
+                    "https://telegra.ph/file/aa06ff5c401cf398acb59.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -843,8 +843,8 @@ with bot:
             else:
                 result = builder.article(
                     title="✨ 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 ✨",
-                    description="AlxEl - Userbot | Telethon",
-                    url="https://t.me/Soasiklo22",
+                    description="𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 | Telethon",
+                    url="https://t.me/staywithroms",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
@@ -1219,4 +1219,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @AlxElSupport » TAG @Im_el69 ATAU ADMIN LAINNYA » Info By: AlxEl-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @zeinssupports » TAG @Shinzuonnnn ATAU ADMIN LAINNYA » Info By: 𝐙𝐞𝐢𝐧𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 {BOT_VER}")
