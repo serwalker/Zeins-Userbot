@@ -1,4 +1,4 @@
- <h1 align="center">𝙰𝙻𝚡𝙴𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃</h1>
+ <h1 align="center">Zeins-Userbot</h1>
 
 <a href="https://github.com/inisenja/Senja-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/inisenja/Senja-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/inisenja/Senja-Userbot)
@@ -12,7 +12,7 @@
   <img src="https://telegra.ph/file/17dbf290bbadaf6290806.jpg">
 </p>
 
-👩‍💻 AlxEl-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+👩‍💻 Zeins-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/inisenja/Senja-Userbot`
+ • `git clone https://github.com/serwalker/Zeins-Userbot`
 
- • `cd Senja-Userbot`
+ • `cd Zeins-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S AlxEl-Userbot`
+ • `screen -S Zeins-Userbot`
 
  • `bash start`
 
@@ -71,21 +71,14 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/nathaelxx/ALxEL-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/serwalker/Zeins-Userbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
-<details>
-<summary><b>🔗 Deploy To Bot Heroku</b></summary>
-<br>
-
-<p><a href="https://telegram.dog/XTZ_HerokuBot?start=aW5pc2VuamEvU2VuamEtVXNlcmJvdCBTZW5qYS1Vc2VyYm90"><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
-
-</details>
 
 ## Updates & Support
 
-Follow Channel [@soasiklo22 @nathaellxx](https://t.me/im_el69) untuk info Update bot dan Gabung Group [@alelsupport](https://t.me/alelsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang AlxEl-Userbot.
+Follow Channel [@soasiklo22 @nathaellxx](https://t.me/im_el69) untuk info Update bot dan Gabung Group [@alelsupport](https://t.me/alelsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Zeins-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -98,17 +91,17 @@ Follow Channel [@soasiklo22 @nathaellxx](https://t.me/im_el69) untuk info Update
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
--  [AlxEl](https://github.com/nathaelxx/AlxEl-Userbot) : AlxEl-Userbot
+-  [serwalker](https://github.com/serwalker/Zeins-Userbot) : Zeins-Userbot
 
 ## © Credits
 -  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
--  [nathaelxx](https://github.com/nathaelxx) for [AlxEl-Userbot](https://github.com/AlxEl/AlxEl-Userbot)
+-  [serwalker](https://github.com/serwalker) for [Zeins-Userbot](https://github.com/serwalker/Zeins-Userbot)
 
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/nathaelxx/AlxEl-Userbot/blob/AlxEl-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/serwalker/Zeins-Userbot/blob/Zeins-Userbot/LICENSE) - Version 1.d, agustus 2022
 
 
