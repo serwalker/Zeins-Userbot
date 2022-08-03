@@ -7,7 +7,7 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/AyiinXd/Ayiin-Userbot /home/ayiinuserbot/ \
+RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot-Userbot /home/ayiinuserbot/ \
 
     && chmod 777 /home/ayiinuserbot \
 
