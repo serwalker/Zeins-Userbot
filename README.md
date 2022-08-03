@@ -1,4 +1,10 @@
- <h1 align="center">Zeins-Userbot</h1>
+ <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+
+<h1 align="center">Zeins-Userbot</h1>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
 
 <a href="https://github.com/inisenja/Senja-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/inisenja/Senja-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/inisenja/Senja-Userbot)
@@ -9,7 +15,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/17dbf290bbadaf6290806.jpg">
+  <img src="..">
 </p>
 
 👩‍💻 Zeins-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
@@ -28,9 +34,16 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## ========×========
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+
 <details>
 <summary><b>🔗 String Session</b></summary>
 <br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+
     
 > Anda memerlukan API_ID & API_HASH untuk menghasilkan sesi telethon. ambil APP ID dan API Hash di my.telegram.org
 <h4> Generate Session via Repl: </h4>    
@@ -40,10 +53,21 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
     
 </details>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+
+
 <details>
 <summary><b>🔗 Deploy di VPS</b></summary>
 <br>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+   
 ### Tutorial Deploy di VPS
 
 
@@ -67,6 +91,10 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 </details>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+   
+
 <details>
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
@@ -75,6 +103,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 </details>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+   
 
 ## Updates & Support
 
