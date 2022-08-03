@@ -6,11 +6,11 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot-Userbot /home/Zeins-Userbot/ \
+RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot-Userbot /home/ZeinsUserbot/ \
 
-    && chmod 777 /home/Zeins-Userbot \
+    && chmod 777 /home/ayiinuserbot \
 
-    && mkdir /home/Zeins-Userbot/bin/
+    && mkdir /home/ayiinuserbot/bin/
 
 COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
 
