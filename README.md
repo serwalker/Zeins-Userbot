@@ -15,7 +15,7 @@
 
 
 <p align="center">
-  <img src="..">
+  <img src="https://telegra.ph/file/aa06ff5c401cf398acb59.jpg">
 </p>
 
 👩‍💻 Zeins-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
