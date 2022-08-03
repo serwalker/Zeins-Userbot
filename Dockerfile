@@ -14,7 +14,7 @@ RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot-Userbo
 
 COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
 
-WORKDIR /home/Zeins-Userbot/
+WORKDIR /home/ayiinuserbot/
 
 RUN pip install -r requirements.txt
 
