@@ -2,13 +2,16 @@
 #      Created by: Alfa-Ex
 #=========× AyiinXd ×=========#
 
-FROM ayiinxd/Zeins-Userbot:buster
+FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot /home/Zeins-Userbot/ \
-    && chmod 777 /home/Kyy-Userbot \
-    && mkdir /home/Kyy-Userbot/bin/
-WORKDIR /home/Kyy-Userbot/
-COPY ./sample_config.env ./config.env* /home/Kyy-Userbot/
+RUN git clone -b Ayiin-Userbot https://github.com/AyiinXd/Ayiin-Userbot /home/ayiinuserbot/ \
+    && chmod 777 /home/ayiinuserbot \
+    && mkdir /home/ayiinuserbot/bin/
+
+COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
+
+WORKDIR /home/ayiinuserbot/
+
 RUN pip install -r requirements.txt
 
 CMD ["bash","start"]
