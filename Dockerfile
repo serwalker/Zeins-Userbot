@@ -1,17 +1,18 @@
 #==============×==============#
-#      Created by: Alfa-Ex
-#=========× AyiinXd ×=========#
+#      Created by: shin pepek
+#=========× Zeinsbot ×=========#
 
-FROM ayiinxd/ayiin-userbot:buster
+FROM serwalker/Zeins-Userbot:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/AyiinXd/Ayiin-Userbot /home/ayiinuserbot/ \
-    && chmod 777 /home/ayiinuserbot \
-    && mkdir /home/ayiinuserbot/bin/
+RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot /home/Zeins-Userbot/ \
+    && chmod 777 /home/Zeins-Userbot \
+    && mkdir /home/Zeins-Userbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
+COPY ./sample_config.env ./config.env* /home/Zeins-Userbot/
 
-WORKDIR /home/ayiinuserbot/
+WORKDIR /home/Zeins-Userbot/
 
 RUN pip install -r requirements.txt
 
 CMD ["bash","start"]
+
