@@ -1,6 +1,6 @@
 #==============×==============#
-#      Created by: shin pepek
-#=========× Zeinsbot ×=========#
+#      Created by: Alfa-Ex
+#=========× AyiinXd ×=========#
 
 FROM ayiinxd/ayiin-userbot:buster
 
@@ -8,11 +8,10 @@ RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot /home/
     && chmod 777 /home/Zeins-Userbot \
     && mkdir /home/Zeins-Userbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/Zeins-Userbot/
+COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
 
 WORKDIR /home/Zeins-Userbot/
 
 RUN pip install -r requirements.txt
 
 CMD ["bash","start"]
-
