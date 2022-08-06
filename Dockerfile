@@ -2,7 +2,7 @@
 #      Created by: shin pepek
 #=========× Zeinsbot ×=========#
 
-FROM serwalker/Zeins-Userbot:buster
+FROM ayiinxd/ayiin-userbot:buster
 
 RUN git clone -b Zeins-Userbot https://github.com/serwalker/Zeins-Userbot /home/Zeins-Userbot/ \
     && chmod 777 /home/Zeins-Userbot \
