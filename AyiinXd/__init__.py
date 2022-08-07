@@ -100,7 +100,7 @@ while 0 < 6:
         if 0 != 5:
             continue
         DEVS = [
-            1966035463,
+            5525374080,
             997461844,
             1700405732,
             1905050903,
@@ -183,7 +183,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/serwalker/Zeins-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/serwalker/Zeins-Userbot")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
